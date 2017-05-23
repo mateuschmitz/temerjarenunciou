@@ -60,7 +60,8 @@
                             $feed = str_replace('<media:', '<', $feed);
                             $xml = simplexml_load_string($feed);
                             foreach ($xml->children() as $item) {
-                                echo "<li><a target='_blank' href='{$item->link[href]}'>{$item->title}</a></li>";
+                                if (!empty($item->link['href']) && !empty($item->title))
+                                echo "<li><a target='_blank' href='{$item->link['href']}'>{$item->title}</a></li>";
                             }
                         ?>
                     </ul>
