@@ -10,7 +10,6 @@
         <meta property="og:title" content="Temer Já Renunciou? NÃO" />
         <meta property="og:description" content="Saiba se Michel Temer ainda é o presidente da República Federativa do Brasil" />
         <meta property="og:image" content="http://temerjarenunciou.com.br/img/michel_temer.jpg" />
-        <meta property="og:locale" content="PT-br" />
 
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:site" content="@temerrenunciou" />
