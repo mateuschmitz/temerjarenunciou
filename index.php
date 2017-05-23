@@ -36,6 +36,13 @@
                     <div class="col-sm-6 mar-top-60">
                         <h1 class="text-center">NÃO!</h1>
                         <p class="text-center mar-top-30">Michel Temer segue como 37º presidente da República Federativa do Brasil, desde 31 de agosto de 2016.</p>
+                        <p class="text-center mar-top-30">
+                            <a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=Temer%20J%C3%A1%20Renunciou%3F%20N%C3%83O%20http%3A%2F%2Ftemerjarenunciou.com.br" data-size="large">
+                                Tweet
+                            </a>&nbsp;
+                            <iframe src="https://www.facebook.com/plugins/share_button.php?href=http%3A%2F%2Ftemerjarenunciou.com.br%2F&layout=button&size=large&mobile_iframe=true&appId=135052763576848&width=119&height=28" width="119" height="28" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                        </p>
+
                     </div>
                     <img src="img/michel_temer.jpg" class="img-rounded img-responsive col-sm-4">
                 </div>
