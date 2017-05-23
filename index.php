@@ -55,18 +55,14 @@
                 <div class="col-sm-8">    
                     <u><h2 class="text-center">ÚLTIMAS NOTÍCIAS</h2></u>
                     <ul style="margin-top: 15px;">
-                    <li><a target="_blank" href="http://g1.globo.com/politica/noticia/temer-vai-a-residencia-de-maia-para-jantar-com-lideres-da-base-aliada.ghtml">
-                        Temer vai à residência de Maia para jantar com líderes da base aliada
-                    </a></li>
-                    <li><a target="_blank" href="http://g1.globo.com/politica/noticia/audio-gravado-por-delator-e-transmissao-original-da-cbn-tem-6-minutos-de-diferenca.ghtml">
-                        Áudio gravado por delator e transmissão original da CBN têm 6 minutos de diferença
-                    </a></li>
-                    <li><a target="_blank" href="http://g1.globo.com/politica/noticia/eventual-processo-de-impeachment-de-temer-pode-agravar-crise-diz-renan.ghtml">
-                        Eventual processo de impeachment de Temer 'pode agravar' crise, diz Renan
-                    </a></li>
-                    <li><a target="_blank" href="http://g1.globo.com/politica/noticia/em-situacao-normal-gravacao-nao-seria-aceita-diz-perito-contratado-pela-defesa-de-temer.ghtml">
-                        Gravação não seria aceita em 'situação normal', diz perito da defesa de Temer
-                    </a></li>
+                        <?php
+                            $feed = file_get_contents('https://www.google.com/alerts/feeds/09593057662365589691/2369996158509438002');
+                            $feed = str_replace('<media:', '<', $feed);
+                            $xml = simplexml_load_string($feed);
+                            foreach ($xml->children() as $item) {
+                                echo "<li><a target='_blank' href='{$item->link[href]}'>{$item->title}</a></li>";
+                            }
+                        ?>
                     </ul>
                 </div>
                 <div class="col-sm-4">
