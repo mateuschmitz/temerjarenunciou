@@ -41,7 +41,7 @@
                             <a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=Temer%20J%C3%A1%20Renunciou%3F%20N%C3%83O%20" data-size="large">
                                 Tweet
                             </a>&nbsp;
-                            <iframe src="https://www.facebook.com/plugins/share_button.php?href=http%3A%2F%2Ftemerjarenunciou.com.br%2F&layout=button&size=large&mobile_iframe=true&appId=135052763576848&width=119&height=28" width="119" height="28" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                            <iframe src="https://www.facebook.com/plugins/share_button.php?href=http%3A%2F%2Ftemerjarenunciou.com.br%2F&layout=button&size=large&mobile_iframe=true&appId=1843101975950961&width=117&height=28" width="117" height="28" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
                         </p>
 
                     </div>
@@ -72,12 +72,28 @@
             </div>
         </div>
 
+        <div class="container">
+            <div class="col-sm-12 text-center" style="margin-bottom: 50px;">
+                <div class="fb-comments" data-href="http://temerjarenunciou.com.br" data-numposts="10" data-colorscheme="light" data-width="800"></div>
+            </div>
+        </div>
+
         <footer class="footer">
             <div class="container">
                 <p class="text-muted text-center">Todo o conteúdo aqui exposto pertence aos seus respectivos criadores e autores. Site melhor visualizado com o monitor ligado.</p>
                 <p class="text-muted text-center" style="margin-top: -20px;">Powered by <a target="_blank" href="http://temerjarenunciou.com.br">Temer Já Renunciou?</a></p>
             </div>
         </footer>
+
+        <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.9&appId=135052763576848";
+            fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
+        </script>
     </body>
     <script src="js/widgets.js" charset="utf-8"></script>
 </html>
